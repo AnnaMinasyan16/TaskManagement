@@ -1,0 +1,43 @@
+.todo-content {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.todo-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo-header h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.todo-header button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.2s ease;
+}
+
+.todo-header button:hover {
+  background-color: #43a047;
+}
+
+.todo-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+
